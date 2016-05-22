@@ -43,7 +43,6 @@ li > a {
     text-align: center; 
     padding: 14px 16px; 
     text-decoration: none;
-    text-transform: capitalize;
     font-size: 120%;
 }
 .flogolink {

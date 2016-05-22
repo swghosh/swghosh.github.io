@@ -21,6 +21,7 @@ body {
 }
 .navbar {
     width: 100%;
+    box-shadow: 0 0 40px rgba(0,0,0,0.9);
 }
 ul {
     list-style-type: none;
@@ -67,7 +68,7 @@ li > a {
     background-image: url(images/bg1.png);
     background-position: center;
     background-attachment: fixed;
-    height: 700px;
+    height: 500px;
 }
 .foot {
     width: 100%;

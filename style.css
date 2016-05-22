@@ -64,7 +64,10 @@ li > a {
 .content1 {
     background-color: #344;
     color: #fff;
-    height: 1200px;
+    background-image: url(images/bg1.png);
+    background-position: center;
+    background-attachment: fixed;
+    height: 700px;
 }
 .foot {
     width: 100%;
@@ -74,4 +77,11 @@ li > a {
     font-family: 'Raleway';
     text-decoration-line: overline;
     height: 100%;
+    background-attachment: fixed;
+}
+
+.content2 {
+    background-color: #456;
+    color: #fff;
+    height: 400px;
 }

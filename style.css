@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 body {
     margin: 0%;
-    font-size: 110%;
+    background-color: #111;
 }
 .header {
     width: 100%;
@@ -12,6 +12,7 @@ body {
     color: #fff;
     margin: 5%;
     margin-bottom: 2%;
+    margin-top: 0%;
 }
 .header > h1 > small {
     font-size: 50%;
@@ -30,7 +31,11 @@ body {
     font-size: 60%;
 }
 .header > #imageatr {
-    text-align: center;
+    text-align: left;
+}
+.header > #imageatr > img {
+    margin-bottom: 0%;
+    margin-left: 5%;
 }
 .navbar {
     width: 100%;
@@ -77,9 +82,8 @@ li > a {
 .content1 {
     background-color: #236;
     color: #fff;
-    background-position: center;
     background-attachment: fixed;
-    height: 500px;
+    height: 1000px;
 }
 .foot {
     width: 100%;
@@ -89,16 +93,10 @@ li > a {
     font-family: 'Raleway';
     text-decoration-line: overline;
     height: 120%;
-    background-attachment: fixed;
 }
-
-.content2 {
-    background-color: #336;
-    color: #fff;
-    height: 400px;
-}
-
 .heart {
     color: #f30;
+    font-family: serif;
+    font-size: 120%;
 }
 

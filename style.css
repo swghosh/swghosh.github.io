@@ -62,9 +62,8 @@ li > a {
     background-color: #333;
 }
 .content1 {
-    background-color: #344;
+    background-color: #236;
     color: #fff;
-    background-image: url(images/bg1.png);
     background-position: center;
     background-attachment: fixed;
     height: 500px;
@@ -76,12 +75,12 @@ li > a {
     text-align: center;
     font-family: 'Raleway';
     text-decoration-line: overline;
-    height: 100%;
+    height: 120%;
     background-attachment: fixed;
 }
 
 .content2 {
-    background-color: #456;
+    background-color: #336;
     color: #fff;
     height: 400px;
 }

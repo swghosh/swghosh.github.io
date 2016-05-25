@@ -1,21 +1,15 @@
-var changeSlash1 = function () {
-    document.querySelector('#slash').innerHTML = '&lt; \\ &gt;';
-    document.querySelector('#slash2').innerHTML = '&lt; \\ &gt;';
-};
-var changeSlash2 = function () {
-    document.querySelector('#slash').innerHTML = '&lt; \/ &gt;';
-    document.querySelector('#slash2').innerHTML = '&lt; \/ &gt;';
-};
-var changeSlashRepeatedly = function () {
-    if(document.querySelector('#slash').innerHTML === '&lt; \/ &gt;') {
-        changeSlash1();
+var changeSlashes = function () {
+    if (document.querySelector('#slash').innerHTML === '&lt; \/ &gt;') {
+        document.querySelector('#slash').innerHTML = '&lt; \\ &gt;';
+        document.querySelector('#slash2').innerHTML = '&lt; \\ &gt;';
     }
-    else if(document.querySelector('#slash').innerHTML = '&lt; \\ &gt;') {
-        changeSlash2();
+    else if (document.querySelector('#slash').innerHTML === '&lt; \\ &gt;') {
+        document.querySelector('#slash').innerHTML = '&lt; \/ &gt;';
+        document.querySelector('#slash2').innerHTML = '&lt; \/ &gt;';
     }
 };
-setInterval(changeSlashRepeatedly, 1000);
-document.onscroll = function () {
+setInterval(changeSlashes, 1000);
+var navStick = function () {
     if(document.body.scrollTop > parseInt($('.header').height())) {
         document.querySelector('.navbar').style.position = 'fixed';
         document.querySelector('.navbar').style.top = '0';
@@ -27,3 +21,4 @@ document.onscroll = function () {
         document.querySelector('#flogo').style.display = 'none';
     }
 };
+document.onscroll = navStick;

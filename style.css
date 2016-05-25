@@ -13,6 +13,13 @@ body {
     margin: 5%;
     margin-bottom: 2%;
 }
+.header > h1 > #beta {
+    font-size: 60%;
+    background-color: #fff;
+    color: #156;
+    width: 100%;
+    border-radius: 10%;;
+}
 #slash {
     font-size: 60%;
 }

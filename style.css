@@ -75,6 +75,13 @@ li > a {
     float: right;
     display: none;
 }
+#menubutton {
+    font-size: 200%;
+    margin: 0%;
+}
+#menubutton > small {
+    font-size: 100%;
+}
 #slash2 {
     font-size: 60%;
 }
@@ -102,4 +109,3 @@ li > a {
     font-family: serif;
     font-size: 120%;
 }
-

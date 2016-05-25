@@ -64,11 +64,11 @@ if(mobileView) {
 }
 document.querySelector('a#menubutton').onclick = function () {
     if(menuView) {
-        document.querySelector('a#menubutton').innerHTML = 'MENU';
+        document.querySelector('a#menubutton').innerHTML = '&equiv;';
         hideMenu();
     }
     else {
-        document.querySelector('a#menubutton').innerHTML = 'X';
+        document.querySelector('a#menubutton').innerHTML = '<small>x</small>';
         showMenu();
     }
 };

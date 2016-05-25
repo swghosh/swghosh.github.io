@@ -22,3 +22,15 @@ var navStick = function () {
     }
 };
 document.onscroll = navStick;
+var navFloatMobile = function () {
+    var navbarWidth = $(document.querySelectorAll('.navbar li')[0]).width() + $(document.querySelectorAll('.navbar li')[1]).width() + $(document.querySelectorAll('.navbar li')[2]).width() + $(document.querySelectorAll('.navbar li')[3]).width() + $(document.querySelectorAll('.navbar li')[4]).width();
+    if($(document).width() < navbarWidth) {
+        var li = document.querySelectorAll('.navbar li');
+        li[0].style.float = 'none';
+        li[1].style.float = 'none';
+        li[2].style.float = 'none';
+        li[3].style.float = 'none';
+        li[4].style.float = 'none';
+    }
+};
+navFloatMobile();

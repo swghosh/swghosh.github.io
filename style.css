@@ -13,7 +13,10 @@ body {
     margin: 5%;
     margin-bottom: 2%;
 }
-.header > h1 > #beta {
+.header > h1 > small {
+    font-size: 50%;
+}
+.header > h1 > sup > #beta {
     font-size: 60%;
     background-color: #fff;
     color: #156;
@@ -25,6 +28,9 @@ body {
 }
 .header > h1 > span{
     font-size: 60%;
+}
+.header > #imageatr {
+    text-align: center;
 }
 .navbar {
     width: 100%;
@@ -91,3 +97,8 @@ li > a {
     color: #fff;
     height: 400px;
 }
+
+.heart {
+    color: #f30;
+}
+

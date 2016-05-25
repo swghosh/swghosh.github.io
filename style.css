@@ -71,7 +71,10 @@ li > a {
     text-decoration: none;
     text-transform: lowercase;
 }
-
+#togglemenu {
+    float: right;
+    display: none;
+}
 #slash2 {
     font-size: 60%;
 }
@@ -83,7 +86,7 @@ li > a {
     background-color: #236;
     color: #fff;
     background-attachment: fixed;
-    height: 1000px;
+    height: 900px;
 }
 .foot {
     width: 100%;

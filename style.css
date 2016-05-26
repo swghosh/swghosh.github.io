@@ -72,8 +72,10 @@ li > a {
     text-transform: lowercase;
 }
 #togglemenu {
-    float: right;
     display: none;
+}
+#togglemenu > #menubutton {
+    text-align: right;
 }
 #togglemenu:hover {
     background-color: #333;

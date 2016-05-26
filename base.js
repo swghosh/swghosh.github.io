@@ -39,7 +39,7 @@ document.onscroll = navStickScroll;
 var navFloatMobile = function () {
     if(mobileView) {
         var li = document.querySelectorAll('.navbar li');
-        for(var i = 1; i < li.length; i++) {
+        for(var i = 0; i < li.length; i++) {
             li[i].style.float = 'none';
         }
         document.querySelector('#togglemenu').style.display = 'block';

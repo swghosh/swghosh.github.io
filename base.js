@@ -1,5 +1,9 @@
 /* Mobile view init */
-var navbarTotalWidth = $(document.querySelectorAll('.navbar li')[0]).width() + $(document.querySelectorAll('.navbar li')[1]).width() + $(document.querySelectorAll('.navbar li')[2]).width() + $(document.querySelectorAll('.navbar li')[3]).width() + $(document.querySelectorAll('.navbar li')[4]).width();
+var navBarLi = document.querySelectorAll('.navbar li');
+var navbarTotalWidth = 0;
+for(var i = 1; i < navBarLi.length; i++) {
+    navbarTotalWidth = navbarTotalWidth + $(navBarLi[i]).width();
+}
 var mobileView = $(document).width() < navbarTotalWidth;
 /* Navigation bar stick init */
 var navStick = false;
@@ -35,7 +39,6 @@ document.onscroll = navStickScroll;
 var navFloatMobile = function () {
     if(mobileView) {
         var li = document.querySelectorAll('.navbar li');
-        li[0].style.float = 'right';
         for(var i = 1; i < li.length; i++) {
             li[i].style.float = 'none';
         }

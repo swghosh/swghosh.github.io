@@ -98,7 +98,15 @@ li > a {
     background-color: #236;
     color: #fff;
     background-attachment: fixed;
-    height: 900px;
+    height: 120%;
+}
+#xterm {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 300%;
+    margin-bottom: 30%;
 }
 .foot {
     width: 100%;

@@ -47,7 +47,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgba(7, 7, 7, 0.99);
     font-family: 'Raleway';
 }
 li {
@@ -79,7 +79,7 @@ li > a {
     text-align: right;
 }
 #togglemenu:hover {
-    background-color: #333;
+    background-color: rgba(7, 7, 7, 0.99);
 }
 #menubutton {
     font-size: 200%;
@@ -93,7 +93,7 @@ li > a {
 }
 #flogo {
     display: none;
-    background-color: #333;
+    background-color: rgba(7, 7, 7, 0.99);
 }
 .content1 {
     background-color: #236;

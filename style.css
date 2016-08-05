@@ -5,8 +5,13 @@ body {
     background-color: #111;
 }
 .header {
+    background-image: url(images/bg1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
     width: 100%;
     background-color: #222;
+    min-height: 100%;
+    text-align: center;
 }
 .header > h1 {
     font-family: 'Raleway';
@@ -32,7 +37,7 @@ body {
     font-size: 60%;
 }
 .header > #imageatr {
-    text-align: left;
+    text-align: center;
 }
 .header > #imageatr > img {
     margin-bottom: 0%;
@@ -58,17 +63,17 @@ li:hover {
 }
 li > a {
     display: block;
-    color: #fff; 
-    text-align: center; 
-    padding: 14px 16px; 
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 120%;
 }
 .flogolink {
     display: block;
-    color: #fff; 
-    text-align: center; 
-    padding: 14px 16px; 
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
     text-transform: lowercase;
 }
@@ -99,7 +104,15 @@ li > a {
     background-color: #236;
     color: #fff;
     background-attachment: fixed;
-    height: 120%;
+    height: 100%;
+}
+.content1 p {
+    text-align: center;
+}
+#processing {
+    border-radius: 100%;
+    max-width: 90%;
+    box-shadow: 0 0 40px rgba(0,0,0,0.9);
 }
 #xterm {
     margin-left: 5%;

@@ -1,5 +1,5 @@
 var main = function () {
-    var text = "Something amazing will fill up this space soon. We're working hard on it. #comingsoon :)                           ";
+    var text = "A few project and their source codes! Hosted on GitHub!                           ";
     var counter = text.length;
     var times = 0;
     var addText = function () {

@@ -54,6 +54,9 @@ var hideMenu = function () {
     navBar.style.minHeight = null;
     navBar.style.position = null;
     navBar.style.top = null;
+    document.querySelector('#flogo').style.display = 'none';
+    document.querySelector('.navbar').style.display = 'none';
+    $('.navbar').fadeIn();
     var li = document.querySelectorAll('.navbar li');
     for(var i = 2; i < li.length; i++) {
         li[i].style.display = 'none';
@@ -66,13 +69,16 @@ var showMenu = function () {
     navBar.style.minHeight = '100vh';
     navBar.style.position = 'fixed';
     navBar.style.top = 0;
+    document.querySelector('#flogo').style.display = 'block';
+    document.querySelector('.navbar').style.display = 'none';
+    $('.navbar').fadeIn();
     var li = document.querySelectorAll('.navbar li');
     for(var i = 2; i < li.length; i++) {
         li[i].style.display = 'block';
     }
     menuView = true;
 };
-if(mobileView) { 
+if(mobileView) {
     hideMenu();
 }
 document.querySelector('a#menubutton').onclick = function () {

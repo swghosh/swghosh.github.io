@@ -110,7 +110,7 @@ li > a {
     text-align: center;
 }
 #processing {
-    border-radius: 100%;
+    border-radius: 5%;
     max-width: 90%;
     box-shadow: 0 0 40px rgba(0,0,0,0.9);
 }

@@ -19,7 +19,7 @@ ul {
 }
 li {
     float: left;
-    font-size: 130%;
+    font-size: 90%;
 }
 li:hover {
     background-color: #000;

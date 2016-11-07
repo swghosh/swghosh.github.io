@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:400);
 body {
     margin: 0%;
-    background-color: #eee;
+    background-color: #111;
 }
 .navbar {
     width: 100%;
@@ -19,7 +19,7 @@ ul {
 }
 li {
     float: left;
-    font-size: 90%;
+    font-size: 2.6vh;
 }
 li:hover {
     background-color: #000;
@@ -146,7 +146,15 @@ table#news tr td img.pp {
     color: #fff;
     text-align: center;
     font-family: 'Raleway';
-    height: 120%;
+    height: 100%;
+    font-size: 85%;
+}
+.foot > a {
+    color: #fff;
+}
+.foot > a:hover {
+    color: #eee;
+    text-decoration: none;
 }
 .foot > h1 {
     margin-left: 5%;
@@ -162,4 +170,8 @@ table#news tr td img.pp {
     color: #f30;
     font-family: serif;
     font-size: 120%;
+}
+* {
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
 }

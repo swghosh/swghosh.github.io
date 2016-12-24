@@ -1,0 +1,37 @@
+/* Pre Loader */
+li#preloader {
+    transition: opacity 2s;
+}
+section.loader {
+    display: inline-block;
+    transform: rotate(0deg);
+    transition: transform 2s;
+    transition-timing-function: ease-in-out;
+    margin: 0;
+    padding: 0;
+}
+section.loader > div.first{
+    height:2vh;
+    width:2vh;
+    border-radius: 4vh 0px 0 0;
+    background:white;
+    margin: 0;
+    padding:0;
+    display: inline-block;
+}
+section.loader > div.second{
+    height:2vh;
+    width:2vh;
+    border-radius: 0px 0px 4vh 0px;
+    background:white;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+section.loader > div.none {
+    margin: 0;
+    padding: 0;
+    height:2vh;
+    width:2vh;
+    display: inline-block;
+}

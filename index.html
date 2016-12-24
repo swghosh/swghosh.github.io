@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>www.codecrafts.cf | Stay calm and keep coding! | Software Projects</title>
+        <link rel="stylesheet" href="preloader.css" type="text/css" />
         <link rel="stylesheet" href="style.css" type="text/css" />
         <meta name="viewport" content="width=device-width" />
         <meta property="og:title" content="Code Crafts. Software Projects. Strive towards simplicity. Beauty will follow." />
@@ -18,6 +19,13 @@
         <div class="navbar">
             <ul>
                 <li id="flogo"><span class="flogolink"> <span id="slash2">&lt; / &gt;</span> www.codecrafts.cf </span></li>
+                <li id="preloader"> 
+                    <section class="loader">
+                      <div class="first"></div><br>
+                      <div class="none"></div>
+                      <div class="second"></div>
+                    </section>
+                </li>
                 <li id="proj"><span class="flogolink" id="proj"><small>Software Projects</small></span></li>
             </ul>
         </div>
@@ -222,6 +230,10 @@
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script><br/><br/>
             </div>
         </footer>
+        <script src="preloader.js"></script>
+        <script>
+            document.querySelector('section.loader').style.transform = 'rotate(360deg)';
+        </script>
         <script src="base.js"></script>
     </body>
 </html>

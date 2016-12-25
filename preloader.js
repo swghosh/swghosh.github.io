@@ -24,4 +24,11 @@ var rotateLoader = function() {
     document.querySelector('section.loader').style.transform = 'rotate(' + i.toString() + 'deg)';
 };
 
-setInterval(rotateLoader, 2000);
+var rotateLoaders = setInterval(rotateLoader, 2000);
+
+// clears the rotating loader
+function clearIntervalRotate() {
+    clearInterval(rotateLoaders);
+}
+
+document.querySelector('div.preloader').ontransitionend = clearIntervalRotate;

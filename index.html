@@ -16,15 +16,17 @@
         <meta charset="utf-8">
     </head>
     <body>
+        
         <div class="navbar">
             <ul>
                 <li id="flogo"><span class="flogolink"> <span id="slash2">&lt; / &gt;</span> www.codecrafts.cf </span></li>
-                <li id="preloader"> 
-                    <section class="loader">
-                      <div class="first"></div><br>
-                      <div class="none"></div>
-                      <div class="second"></div>
-                    </section>
+                <li>
+                    <div class="preloader">
+                        <section class="loader">
+                            <div class="first"></div><div class="none"></div><br><br>
+                            <div class="none"></div><div class="second"></div>
+                        </section>
+                    </div>
                 </li>
                 <li id="proj"><span class="flogolink" id="proj"><small>Software Projects</small></span></li>
             </ul>
@@ -232,7 +234,7 @@
         </footer>
         <script src="preloader.js"></script>
         <script>
-            document.querySelector('section.loader').style.transform = 'rotate(360deg)';
+            document.querySelector('section.loader').style.transform = 'rotate(45deg)';
         </script>
         <script src="base.js"></script>
     </body>

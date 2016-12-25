@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
 body {
     margin: 0%;    
-    background-color: #ddd;
+    background-color: #111;
 }
 
 /* Bio */
@@ -46,9 +46,11 @@ body {
     width: 100%;
     box-shadow: 0 0 40px rgba(0,0,0,0.8);
     position: fixed;
+    top: 0px;
+    z-index: 2;
     /* backdrop-filter declaration is considered experimental as Mozilla Developer Network (MDN) */
     -webkit-backdrop-filter: saturate(180%) blur(10px);
-    backdrop-filter: saturate(180%) blur(10px);
+    backdrop-filter: saturate(110%) blur(5px);
 }
 ul {
     list-style-type: none;

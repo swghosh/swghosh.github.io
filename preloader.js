@@ -5,7 +5,7 @@ function endpreloader(element) {
 
 // displays the preloader to off when the window has finished loading
 
-window.addEventListener("load", pageFullyLoaded, false);
+window.addEventListener("load", pageFullyLoaded);
 
 function pageFullyLoaded(e) {
     endpreloader(document.querySelector('div.preloader'));
@@ -24,6 +24,7 @@ var rotateLoader = function() {
     document.querySelector('section.loader').style.transform = 'rotate(' + i.toString() + 'deg)';
 };
 
+rotateLoader();
 var rotateLoaders = setInterval(rotateLoader, 2000);
 
 // clears the rotating loader

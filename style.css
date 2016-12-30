@@ -168,16 +168,19 @@ table#news td:nth-child(even) {
 }
 table#news tr td img {
     height: auto;
-    width: 100%;
+    width: 102%;
     padding: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: -1%;
+    margin-right: -1%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
 }
 table#news tr td img.pp {
     height: inherit;
     width: inherit;
     border-radius: 50%;
     margin-right: 0.5%;
+    margin-left: inherit;
+    box-shadow: none;
 }
 .foot {
     width: 100%;

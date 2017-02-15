@@ -6,29 +6,30 @@
                 margin: 0;
                 background-color: black;
             }
-            div#square {
+            div.square {
                 position: fixed;
                 width: 5px;
                 height: 5px;
                 background-color: #eee;
                 transition: all 0.8s;
+                border-radius: 100%;
             }
         </style>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Stars, right?! Colourful, yes!</title>
     </head>
     <body>
-        
+
     </body>
     <script>
         var scribble = function() {
             var div = document.createElement('div');
-            div.id = 'square';
+            div.className = 'square';
             div.style.marginLeft = (Math.random() * 100).toFixed(0) + 'vw';
             div.style.marginTop = (Math.random() * 100).toFixed(0) + 'vh';
             div.style.backgroundColor = 'rgb(' + (Math.random() * 255).toFixed(0) + ',' + (Math.random() * 255).toFixed(0) + ',' + (Math.random() * 255).toFixed(0) + ')';
             document.body.appendChild(div);
         };
-        setInterval(scribble, 200);
+        setInterval(scribble, 34);
     </script>
 </html>

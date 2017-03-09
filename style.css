@@ -44,7 +44,6 @@ body {
 /* Top bar */
 .navbar {
     width: 100%;
-    box-shadow: 0 0 40px rgba(0,0,0,0.8);
     position: fixed;
     top: 0px;
     z-index: 2;
@@ -59,6 +58,7 @@ ul {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.85);
     font-family: 'Raleway';
+    box-shadow: 0 0 40px rgba(0,0,0,0.8);
 }
 li {
     float: left;

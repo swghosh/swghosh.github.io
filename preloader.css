@@ -39,12 +39,12 @@ section.loader > div.first{
     height: 1.5vh;
     width: 1.5vh;
     border-radius: 5vh 0px 0 0;
-    background: rgba(249, 8, 33, 0.9);
+    background: rgba(255, 255, 255, 0.98);
     margin: 0;
     margin-bottom: 0;
     padding:0;
     display: inline-block;
-    box-shadow: 0 0 20px #00f;
+/*    box-shadow: 0 0 20px #00f;*/
 /*    border: solid 1px white;*/
 }
 section.loader > div.second{
@@ -55,7 +55,7 @@ section.loader > div.second{
     display: inline-block;
     margin: 0;
     padding: 0;
-    box-shadow: 0 0 20px #00f;
+/*    box-shadow: 0 0 20px #00f;*/
 /*    border: solid 1px white;*/
 }
 section.loader > div.none {

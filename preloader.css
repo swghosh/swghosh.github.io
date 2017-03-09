@@ -44,7 +44,7 @@ section.loader > div.first{
     margin-bottom: 0;
     padding:0;
     display: inline-block;
-    box-shadow: 0 0 20px #000;
+    box-shadow: 0 0 20px #00f;
 /*    border: solid 1px white;*/
 }
 section.loader > div.second{
@@ -55,7 +55,7 @@ section.loader > div.second{
     display: inline-block;
     margin: 0;
     padding: 0;
-    box-shadow: 0 0 20px #000;
+    box-shadow: 0 0 20px #00f;
 /*    border: solid 1px white;*/
 }
 section.loader > div.none {
@@ -69,8 +69,8 @@ section.loader > div.none {
 /* Vertical Scroll Progress Bar */
 div.scrollprogressbar {
     width: 100%;
-    background-color: rgba(20, 120, 170, 0.8);
+    background-color: rgba(50, 190, 240, 0.9);
     height: 0.7vh;
     transition: all 2s ease-in-out;
-    box-shadow: 0 0 40px rgba(0,0,0,0.8);
+    box-shadow: 0 0 40px rgba(140,30,200,0.8);
 }

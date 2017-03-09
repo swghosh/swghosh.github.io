@@ -57,9 +57,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(10, 130, 200, 0.85);
     font-family: 'Raleway';
-    box-shadow: 0 0 40px rgba(0,0,0,0.8);
+    box-shadow: 0 0 20px rgba(40,30,200,0.8);
 }
 li {
     float: left;
@@ -114,7 +114,7 @@ li > a {
     margin-right: 0;
     font-size: 130%;
     font-family: 'Raleway';
-	box-shadow: 0px 0px 30px #000;
+	box-shadow: 0px 0px 30px #00f;
 }
 .content1 tr:nth-child(odd) {
     background-color: rgb(20, 120, 170);
@@ -152,7 +152,7 @@ table#news tr {
 	display: block;
 	margin-left: 8%;
 	margin-right: 8%;
-	box-shadow: 0px 0px 5px #333;
+	box-shadow: 0px 0px 5px #347;
     margin-bottom: 5%;
 }
 table#news td:nth-child(odd) {

@@ -66,3 +66,10 @@ section.loader > div.none {
     width:1.5vh;
     display: inline-block;
 }
+/* Vertical Scroll Progress Bar */
+div.scrollprogressbar {
+    width: 100%;
+    background-color: rgba(20, 120, 170, 0.8);
+    height: 0.7vh;
+    transition: all 2s ease-in-out;
+}

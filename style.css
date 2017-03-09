@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
 body {
     margin: 0%;    
-    background-color: #111;
+    background-color: rgb(20, 120, 170);
 }
 
 /* Bio */
@@ -26,6 +26,7 @@ body {
 .bio p {
     display: inline-block;
     margin: 0;
+    color: rgb(20, 120, 190);
 }
 .bio img.dp {
     max-width: 20vw;
@@ -116,11 +117,11 @@ li > a {
 	box-shadow: 0px 0px 30px #000;
 }
 .content1 tr:nth-child(odd) {
-    background-color: #222;
+    background-color: rgb(20, 120, 170);
 }
 .content1 tr:nth-child(even) {
     background-color: #f1f1f1;
-    color: #000;
+    color: rgb(20, 120, 190);;
 }
 .content1 th {
     padding-top: 2vh;
@@ -149,8 +150,8 @@ table#news th {
 }
 table#news tr {
 	display: block;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 8%;
+	margin-right: 8%;
 	box-shadow: 0px 0px 5px #333;
     margin-bottom: 5%;
 }
@@ -168,10 +169,10 @@ table#news td:nth-child(even) {
 }
 table#news tr td img {
     height: auto;
-    width: 105%;
+    width: 100%;
     padding: 0;
-    margin-left: -2.5%;
-    margin-right: -2.5%;
+/*    margin-left: -2.5%;*/
+/*    margin-right: -2.5%;*/
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
 }
 table#news tr td img.pp {
@@ -184,12 +185,14 @@ table#news tr td img.pp {
 }
 .foot {
     width: 100%;
-    background-color: #111;
+    background-color: rgb(20, 120, 170);;
     color: #fff;
     text-align: center;
     font-family: 'Raleway';
     height: 100%;
     font-size: 85%;
+    margin-top: 8%;
+    margin-bottom: 4%;
 }
 .foot > a {
     color: #fff;
@@ -199,14 +202,14 @@ table#news tr td img.pp {
     text-decoration: none;
 }
 .foot > h1 {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
     text-align: left;
 }
 .foot > p {
     text-align: left;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 8%;
+    margin-left: 8%;
 }
 .heart {
     color: #f30;

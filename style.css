@@ -59,7 +59,7 @@ ul {
     overflow: hidden;
     background-color: rgba(10, 130, 200, 0.85);
     font-family: 'Raleway';
-    box-shadow: 0 0 20px rgba(40,30,200,0.8);
+    box-shadow: 0 0 20px rgba(50,50,100,0.8);
 }
 li {
     float: left;

@@ -72,5 +72,5 @@ div.scrollprogressbar {
     background-color: rgba(50, 190, 240, 0.9);
     height: 0.7vh;
     transition: all 2s ease-in-out;
-    box-shadow: 0 0 40px rgba(140,30,200,0.8);
+    box-shadow: 0 0 40px rgba(50,50,100,0.8);
 }

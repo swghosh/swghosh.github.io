@@ -37,9 +37,14 @@ document.querySelector('div.preloader').ontransitionend = clearIntervalRotate;
 /* Horizontal Scrolling Progress Bar working */
 function scrollProgressBarUpdate() {
     var scrollProgressDiv = document.querySelector('div.scrollprogressbar');
+    
+    var windowHeight = window.innerHeight;
     var currentScrollPos = document.body.scrollTop;
     var maxScroll = document.body.scrollHeight;
-	var percent = (currentScrollPos/maxScroll) * 100;
+    
+    var diff = maxScroll % windowHeight;
+    
+	var percent = ((currentScrollPos + diff) / (maxScroll - diff)) * 100;
 	scrollProgressDiv.style.width = percent + '%';
 }
 

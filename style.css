@@ -121,7 +121,7 @@ li > a {
 }
 .content1 tr:nth-child(even) {
     background-color: #f1f1f1;
-    color: rgb(20, 120, 190);;
+    color: rgb(20, 120, 190);
 }
 .content1 th {
     padding-top: 2vh;

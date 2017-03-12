@@ -183,6 +183,9 @@ table#news tr td img.pp {
     margin-left: inherit;
     box-shadow: none;
 }
+a.cardlink {
+    font-size: 1.5em;
+}
 .foot {
     width: 100%;
     background-color: rgb(20, 120, 170);

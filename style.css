@@ -116,10 +116,10 @@ li > a {
     font-family: 'Raleway';
 	box-shadow: 0px 0px 30px #00f;
 }
-.content1 tr:nth-child(odd) {
+.content1 tr:nth-child(even) {
     background-color: rgb(20, 120, 170);
 }
-.content1 tr:nth-child(even) {
+.content1 tr:nth-child(odd) {
     background-color: #f1f1f1;
     color: rgb(20, 120, 190);
 }

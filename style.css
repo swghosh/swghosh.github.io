@@ -3,6 +3,7 @@
 body {
     margin: 0%;    
     background-color: rgb(10, 10, 10);
+    font-size: 0.9em;
 }
 
 /* Bio */
@@ -58,7 +59,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgba(10, 10, 10, 0.9);
-    font-family: 'Raleway';
+    font-family: 'Oxygen';
     box-shadow: 0 0 20px rgba(50, 50, 100, 0.8);
 }
 li {
@@ -103,7 +104,7 @@ li > a {
     text-align: center;
 }
 .content1 h1 {
-    font-family: 'Raleway';
+    font-family: 'Oxygen';
     color: #135;
 }
 .content1 table {
@@ -113,7 +114,7 @@ li > a {
     margin-left: 0;
     margin-right: 0;
     font-size: 130%;
-    font-family: 'Raleway';
+    font-family: 'Oxygen';
 	box-shadow: 0px 0px 30px #00f;
 }
 .content1 tr:nth-child(even) {
@@ -143,17 +144,18 @@ li > a {
 }
 table#news {
     box-shadow: none;
-    max-width: 700px;
+    max-width: 600px;
 }
 table#news th {
 	display: none;
 }
 table#news tr {
 	display: block;
-	margin-left: 2%;
-	margin-right: 2%;
+	padding: 2%;
+	margin-left: 0%;
+	margin-right: 0%;
 	box-shadow: 0px 0px 5px #347;
-    margin-bottom: 5%;
+    margin-bottom: 25%;
 }
 table#news td:nth-child(odd) {
 	display: block;
@@ -170,9 +172,11 @@ table#news td:nth-child(even) {
 table#news tr td img {
     height: auto;
     width: 100%;
-    padding: 0;
-/*    margin-left: -2.5%;*/
-/*    margin-right: -2.5%;*/
+    padding: 0%;
+   	margin-left: 0%;
+   	margin-right: 0%;
+   	margin-top: 1%;
+   	margin-bottom: 1%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
 }
 table#news tr td img.pp {
@@ -201,7 +205,7 @@ a.cardlink {
     background-color: rgb(10, 10, 10);
     color: #fff;
     text-align: center;
-    font-family: 'Raleway';
+    font-family: 'Oxygen';
     height: 100%;
     font-size: 85%;
     margin-top: 2%;

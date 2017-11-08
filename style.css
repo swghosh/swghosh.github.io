@@ -52,6 +52,7 @@ body {
     /* backdrop-filter declaration is considered experimental as Mozilla Developer Network (MDN) */
     -webkit-backdrop-filter: saturate(180%) blur(10px);
     backdrop-filter: saturate(110%) blur(5px);
+    font-size: 0.7em;
 }
 ul {
     list-style-type: none;

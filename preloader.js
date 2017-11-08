@@ -39,12 +39,12 @@ function scrollProgressBarUpdate() {
     var scrollProgressDiv = document.querySelector('div.scrollprogressbar');
     
     var windowHeight = window.innerHeight;
-    var currentScrollPos = document.body.scrollTop;
+    var currentScrollPos = document.body.scrollTop || window.pageYOffset;
     var maxScroll = document.body.scrollHeight;
     
     var diff = maxScroll % windowHeight;
     
-	var percent = ((currentScrollPos + diff) / (maxScroll - diff)) * 100;
+	var percent = ((currentScrollPos + diff * 2) / (maxScroll + diff)) * 100;
 	scrollProgressDiv.style.width = percent + '%';
 }
 

@@ -9,7 +9,7 @@ body {
 /* Bio */
 .bio {
     width: 100%;
-    font-family: 'Oxygen';
+    font-family: 'Raleway';
     color: #222;
     text-align: center;
 }
@@ -59,7 +59,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgba(10, 10, 10, 0.9);
-    font-family: 'Oxygen';
+    font-family: 'Raleway';
     box-shadow: 0 0 20px rgba(50, 50, 100, 0.8);
 }
 li {
@@ -110,9 +110,7 @@ li > a {
 .content1 table {
     display: inline-table;
     margin-top: 2%;
-    margin-bottom: 2%;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
     font-size: 130%;
     font-family: 'Oxygen';
 	box-shadow: 0px 0px 30px #00f;
@@ -145,6 +143,8 @@ li > a {
 table#news {
     box-shadow: none;
     max-width: 600px;
+    margin: 0;
+    padding: 0;
 }
 table#news th {
 	display: none;
@@ -171,10 +171,10 @@ table#news td:nth-child(even) {
 }
 table#news tr td img {
     height: auto;
-    width: 97%;
+    width: 96%;
     padding: 0%;
-   	margin-left: 0%;
-   	margin-right: 0%;
+   	margin-left: 2%;
+   	margin-right: 2%;
    	margin-top: 1%;
    	margin-bottom: 1%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);

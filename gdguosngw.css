@@ -19,3 +19,9 @@ img.social {
     width: 25px;
     margin: 0.65%;
 }
+img.logo {
+    display: block;
+    border-radius: 50%;
+    width: 40px;
+    margin: 1.1em;
+}

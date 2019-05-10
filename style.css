@@ -6,6 +6,21 @@ body {
     font-size: 0.9em;
 }
 
+div.later {
+    background-color: rgba(0, 0, 0, 0.945);
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1000;
+    font-family: 'Raleway';
+    padding-top: 55%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
 /* Bio */
 .bio {
     width: 100%;

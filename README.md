@@ -62,5 +62,6 @@ While AFK-ing, I like to
   <a href="https://mysql.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/mysql.svg" alt="mysql" height="30" width="40" /></a>
   <a href="https://mongodb.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/mongodb.svg" alt="mongodb" height="30" width="40" /></a>
   <a href="https://linux.org" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linux.svg" alt="linux" height="30" width="40" /></a>
+  <a href="https://latex-project.org" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/latex.svg" alt="latex" height="30" width="40" /></a>
   
 </p>

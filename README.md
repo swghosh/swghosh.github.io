@@ -38,7 +38,7 @@ While AFK-ing, I like to
 ### Connect with me
 <p align="left">
   <a href="https://www.linkedin.com/in/swgghosh/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="swgghosh" height="30" width="40" /></a>
-  <a href="https://twitter.com/donny_xia" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="SwG_Ghosh" height="30" width="40" /></a>
+  <a href="https://twitter.com/SwG_Ghosh" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="SwG_Ghosh" height="30" width="40" /></a>
   <a href="https://instagram.com/swg_ghosh" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="SwG_Ghosh" height="30" width="40" /></a>
 </p>
 

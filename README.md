@@ -50,7 +50,7 @@ While AFK-ing, I like to
   <a href="https://python.org" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/python.svg" alt="python" height="30" width="40" /></a>
   <a href="https://nodejs.org" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/node-dot-js.svg" alt="node.js" height="30" width="40" /></a>
   <a href="https://swift.org" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/swift.svg" alt="swift" height="30" width="40" /></a>
-  <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/c.svg" alt="c" height="30" width="40" />
+  <a href="https://en.cppreference.com/w/c" target="blank>"<img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/c.svg" alt="c" height="30" width="40" /></a>
   <a href="https://java.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/java.svg" alt="java" height="30" width="40" /></a>
   <a href="https://php.net" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/php.svg" alt="php" height="30" width="40" /></a>
   <a href="https://docker.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/docker.svg" alt="docker" height="30" width="40" /></a>

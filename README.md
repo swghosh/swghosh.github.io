@@ -19,8 +19,8 @@ Some facts about me, that I'd like to share! 🙂
 
 I'm currently,
 - 🐿 learning/working with **Go-lang**, **Kubernetes**
-- ⚙️ writing highly-scalable programs for distributed systems
-  - ⛅️ Software Development Engineer @ [semut.io](https://www.semut.io)
+- ⚙️ writing scalable programs for [OpenShift](https://openshift.com)
+  - ⛅️ Software Engineer @ <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/redhat.svg" alt="swift" height="30" width="40" /> [Red Hat](https://redhat.com)
 - 🧠 into machine learning, computer vision
   - Student Developer @ TensorFlow ([Google Summer of Code 2020](https://summerofcode.withgoogle.com/projects/4863446367076352))
 - 🧩 problem solving, also?

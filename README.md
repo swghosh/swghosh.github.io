@@ -15,7 +15,7 @@ Some facts about me, that I'd like to share! 🙂
 - 💻 always excited about **delivering software that can benefit many**
   - 🍥 how about **creating technologies** and not just solutions?
 - ✨ enthusiastic in programming across different **paradigms** (functional, object oriented, imperative, declarative)
-- 🔩 keen on developing APIs with a concrete design
+- 🔩 keen on developing **declarative** APIs with a concrete design (fault tolerant, distributed, controlled)
 
 I'm currently,
 - 🐿 learning/working with **Go-lang**, **Kubernetes**
